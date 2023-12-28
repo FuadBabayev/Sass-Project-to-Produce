@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f623f6d931.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Sass Modules</title>
+</head>
+
+<body>
+    <!-- Navbar Section Start-->
+    <nav>
+        <div class="container">
+            <div id="navbar">
+
+                <div class="logo"><a href="#"><img src="./assets/logo.png" alt=""></a></div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">sass</a></li>
+                        <li><a href="#skills">modules</a></li>
+                        <li><a href="#thanks">end</a></li>
+                    </ul>
+                </div>
+
+                <div class="responsive-bar"><i class="fa-solid fa-bars"></i></div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Section End-->
+
+    <!-- Extras -->
+<div id="backgroundShow"></div>
+<div class="scrollButton"><button class="scroll-top" id="myBtn" title="Go to Top"><i class="fa-solid fa-circle-up"></i></button></div>
+<!-- Extras -->
+
+<!-- Home Section Start-->
+<div id="home">
+    <div class="container"> 
+        <div class="home-parts">
+
+            <div class="home-part1">
+                <p class="prolog">Hello, It's Me</p>
+                <p class="name">Fuad Babayev</p>
+                <div class="home-part1-span">
+                <span class="text first-text">And I'm a</span> &nbsp;
+                <span class="text second-text">Frontend Developer</span>
+                </div>
+
+                <div class="home-part1-icons">
+                    <a href="mailto:fuad.babayev1951@mail.ru"><i class="fa-solid fa-square-envelope"></i></a>
+                    <a href="https://github.com/FuadBabayev" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="http://www.linkedin.com/in/fuad-babayev-b8a649199" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/fuad.babayev.5201/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=994705985856" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>                        
+                </div>
+
+                <div class="home-part1-buttons">
+                    <a href="#about"><button>About Sass</button></a>
+                    <a href="mailto:fuad.babayev1951@mail.ru"><button>Contact Me</button></a>
+                </div>
+            </div>
+
+            <div class="home-part2">
+                <img src="./assets/firstPhoto.jpg" alt="" class="img">       
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Home Section End-->
+
+
+<!-- About Section Start-->
+<div id="about">
+    <div class="container"> 
+        
+        <div class="about-header"><h1 style="cursor: pointer;">Syntactically Awesome Style Sheets</h1></div>
+
+        <div class="about-parts">
+            <div class="about-part1"><img src="./assets/logo2.png" alt="" class="img"></div>
+            <div class="about-part2">
+                <p>Sass provides many built-in modules which contain useful functions. These modules can be loaded with the @use
+                    rule like any user-defined stylesheet. All built-in module URLs begin with sass: to indicate that they’re part
+                    of Sass itself. Before the Sass module system was introduced, all Sass functions were globally available at all
+                    times. Many functions still have global aliases.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="acki"><img src="./assets/logo3.svg" alt=""></div>
+</div>
+<!-- About Section End-->
+
+
+<!-- Skills Section Start-->
+<div id="skills">
+    <div class="container"> 
+        
+        <div class="skills-header"><h1>Sass Modules</h1></div>
+
+        <div class="skills-parts">
+
+            <div class="skills-part1">
+
+                <div class="skills-data">
+                    <div class="skills-logo-name"><i class="fa-brands fa-sass fa-beat" style="color: red;"></i><p>&nbsp;&nbsp;&nbsp;<span>The sass:math </span> module provides functions that operate on numbers</p></div>
+                    <div class="skills-bar skills-html"></div>
+                    <div><span class="skills-percentage">95%</span></div>
+                </div>
+
+                <div class="skills-data">
+                    <div class="skills-logo-name"><i class="fa-brands fa-sass fa-beat-fade" style="color: #f77b00;"></i><p>&nbsp;&nbsp;&nbsp;<span>The sass:string </span> module makes it easy to combine, search or split strings</p></div>
+                    <div class="skills-bar skills-css"></div>
+                    <div><span class="skills-percentage">90%</span></div>
+                </div>
+
+                <div class="skills-data">
+                    <div class="skills-logo-name"><i class="fa-brands fa-sass fa-bounce" style="color: yellow;"></i><p>&nbsp;&nbsp;&nbsp;<span>The sass:color</span> module generates new colors based on existing ones</p></div>
+                     
+                    <div class="skills-bar skills-bootstrap"></div>
+                    <div><span class="skills-percentage">80%</span></div>
+                </div>
+
+                <div class="skills-data">
+                    <div class="skills-logo-name"><i class="fa-brands fa-sass fa-fade" style="color: #00f701;"></i><p>&nbsp;&nbsp;&nbsp;<span>The sass:list </span> module lets you access and modify values in lists</p></div>
+                    <div class="skills-bar skills-js"></div>
+                    <div><span class="skills-percentage">20%</span></div>
+                </div>
+
+                <div class="skills-data">
+                    <div class="skills-logo-name"><i class="fa-brands fa-sass fa-flip" style="color: rgb(0, 0, 255);"></i><p>&nbsp;&nbsp;&nbsp;<span>The sass:map </span>module can to look up the value associated with a key in map</p></div>
+                    <div class="skills-bar skills-git"></div>
+                    <div><span class="skills-percentage">10%</span></div>
+                </div>
+
+                <div class="skills-data">
+                    <div class="skills-logo-name"><i class="fa-brands fa-sass fa-shake" style="color: indigo;"></i><p>&nbsp;&nbsp;&nbsp;<span>The sass:selector</span> module provides access to Sass’s powerful selector engine</p></div>
+                    <div class="skills-bar skills-react"></div>
+                    <div><span class="skills-percentage">10%</span></div>
+                </div>      
+                
+                <div class="skills-data">
+                    <div class="skills-logo-name"><i class="fa-brands fa-sass fa-spin" style="color: rebeccapurple;"></i><p>&nbsp;&nbsp;&nbsp;<span>The sass:meta </span>module exposes the details of Sass’s inner workings. </p></div>
+                    <div class="skills-bar skills-php"></div>
+                    <div><span class="skills-percentage">10%</span></div>
+                </div>  
+
+            </div>
+
+            <div class="skills-part2">
+                <img src="./assets/Sass-modules2.png" alt="" class="img">
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Skills Section End-->
+
+
+<!-- Thansk Section Start-->
+<section id="thanks">
+    <div class="container">
+        <div class="thanks"><h1>Thanks For Your Attention!</h1></div>
+    </div>
+</section>
+<!-- Thanks Section Finish-->
+
+
+<!-- Footer Section Start-->
+<footer>
+    <div class="container">
+        <div id="footer">
+            <div class="footer-logo"><a href="#"><img src="./assets/logo.png" alt=""></a></div>
+            <div class="footer-icons">
+                <a href="mailto:fuad.babayev1951@mail.ru"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://github.com/FuadBabayev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="http://www.linkedin.com/in/fuad-babayev-b8a649199" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/fuad.babayev.5201/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=994705985856" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>                        
+            </div>
+            <hr>
+            <div class="footer-p"><p>© 2023 <a href="#">Qode Interactive,</a> All Rights Reserved</p></div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End-->
+
+
+
+<!-- Responsive Menu Section Start -->
+<div class="responsive">
+
+    <div class="cancel-logo"><i class="fa-solid fa-xmark"></i></div>
+
+    <div class="responsive-menu">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">sass</a></li>
+            <li><a href="#skills">modules</a></li>
+            <li><a href="#thanks">end</a></li>
+        </ul>
+    </div>
+
+</div>
+<!-- Responsive Menu Section End -->
+
+<!-- <p>Sass provides many built-in modules which contain useful functions. These modules can be loaded with the @use
+        rule like any user-defined stylesheet. All built-in module URLs begin with sass: to indicate that they’re part
+        of Sass itself. Before the Sass module system was introduced, all Sass functions were globally available at all
+        times. Many functions still have global aliases.</p>
+    <p>Sass-ın daxilində bir çox hazır funksiyaları icra edən modullar var. Modularrın user tərəfindən icra edilməsi
+        üçün @use açar sözündən istifadə olunur. Onları işlək hala gətirmək üçün URL-lərin qarşısında sass: açar
+        sözü və sonunda isə istifadə edəcəyimiz modulun adı yazılır. Bu onların Sass kitabxanasının bir hissəsi
+        olduqunu bildirir. Sass modul sistemi təqdim edilməzdən əvvəl bütün Sass funksiyaları hər zaman qlobal səviyyədə
+        mövcud idi. Bir çox funksiyalar hələ də qlobal olaraq qalır (Məsələn: map-get, mix).</p>
+
+
+    <p>Sass provides the following modules: <br>
+        The sass:math module provides functions that operate on numbers. <br>
+        The sass:string module makes it easy to combine, search, or split apart strings. <br>
+        The sass:color module generates new colors based on existing ones. <br>
+        The sass:list module lets you access and modify values in lists <br>
+        The sass:map module makes it possible to look up the value associated with a key in a map, and much more. <br>
+        The sass:selector module provides access to Sass’s powerful selector engine. <br>
+        The sass:meta module exposes the details of Sass’s inner workings. 
+    </p>
+    <p>Sass aşağıdakı modulları təmin edir:<br>
+        The sass:math modulu ədədlərlə işləyən funksiyaları təmin edir. <br>
+        The sass:string modulu stringləri birləşdirməyi, axtarmağı və ya ayırmağı asanlaşdırır. <br>
+        The sass:color modulu mövcud olanlara əsaslanaraq yeni rənglər yaradır. <br>
+        The sass:list modulu sizə siyahılardakı dəyərlərə daxil olmaq və onları dəyişdirmək imkanı verir. <br>
+        The sass:map modulu obyektdəki (xəritədəki) key:value-yə əsaslanaraq və daha çoxunu axtarmağa imkan verir. <br>
+        The sass:selector modulu Sass-ın güclü selektor mühərrikinə girişi təmin edir. <br>
+        The sass:meta modulu Sass-ın daxili işlərinin təfərrüatlarını ifşa edir.
+    </p> -->
+    <!-- <div class="math"></div> -->
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

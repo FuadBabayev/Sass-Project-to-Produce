@@ -1,0 +1,24 @@
+@use "sass:map";
+
+// $font-weights: ("regular": 400, "medium": 500, "bold": 700);
+// @debug $font-weights;                                           // ("regular": 400, "medium": 500, "bold": 700)
+// @debug map.deep-remove($font-weights, "regular");               // ("medium": 500, "bold": 700)
+// @debug map.get($font-weights, "medium");                        // 500
+// @debug map.has-key($font-weights, "bold");                      // true
+// @debug map.has-key($font-weights, "bolder");                    // false
+
+// $helvetica-light: (
+//   "weights": (
+//     "lightest": 100,
+//     "light": 300
+//   )
+// );
+// $helvetica-heavy: (
+//   "weights": (
+//     "medium": 500,
+//     "bold": 700
+//   )
+// );
+
+// @debug map.merge($helvetica-light, $helvetica-heavy);      // ("weights": ("medium": 500, "bold": 700))
+// @debug map.deep-merge($helvetica-light, $helvetica-heavy); // ("weights": ("lightest":100, "light":300, "medium":500, "bold":700))

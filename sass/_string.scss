@@ -1,0 +1,13 @@
+@use "sass:string";
+
+// @debug string.quote(CodeAcademy);                               // CodeAcademy
+// @debug string.quote("CodeAcademy");                             // CodeAcademy
+// @debug string.index("CodeAcademy", "e");                        // 4
+// @debug string.index("CodeAcademy", "A");                        // 5
+// @debug string.insert("Code Academy", " RADFE203", 13);          // Code Academy RADFE203
+// @debug string.insert("Code Academy", "RADFE203 ", -13);         // RADFE203 Code Academy
+// @debug string.length("Code Academy");                           // 12
+// @debug string.slice("Code Academy", 6, 12);                     // Academy
+// @debug string.split("Code Academy", " ");                       // ["Code", "Academy"]
+// @debug string.to-lower-case("Code Academy");                    // code academy
+// @debug string.to-upper-case("Code Academy");                    // CODE ACADEMY

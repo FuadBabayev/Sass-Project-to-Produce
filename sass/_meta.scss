@@ -1,0 +1,11 @@
+@use "sass:meta";
+@use "sass:math";
+
+// @debug meta.function-exists("div", "math");             // true
+// @debug meta.function-exists("scale-color");             // true
+// @debug meta.function-exists("add");                     // false
+
+// @function add($num1, $num2) {
+//   @return $num1 + $num2;
+// }
+// @debug meta.function-exists("add");                     // true

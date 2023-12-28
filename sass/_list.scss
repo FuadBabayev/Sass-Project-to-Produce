@@ -1,0 +1,11 @@
+@use 'sass:list';
+
+// @debug list.join(A B, C D);                                 // A B C D
+// @debug list.join([A], B);                                   // [A B]
+// @debug list.length(10px);                                   // 1
+// @debug list.length(10px 20px 30px);                         // 3
+// @debug list.nth(10px 12px 16px, 2);                         // 12px
+// @debug list.set-nth(10px 20px 30px, 1, 60px);               // 60px 20px 30px
+// @debug list.zip(10px 50px 100px, short mid long);           // 10px short, 50px mid, 100px long
+// @debug list.is-bracketed(A B C);                            // false
+// @debug list.is-bracketed([A B C]);                          // true

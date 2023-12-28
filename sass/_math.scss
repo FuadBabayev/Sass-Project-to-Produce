@@ -1,0 +1,34 @@
+@use 'sass:math';
+// The sass:math module provides functions that operate on numbers.
+// The sass:math modulu ədədlərlə işləyən funksiyaları təmin edir.
+
+.math{
+    width: math.div($base-width, 1);
+    height: math.div($base-height, 2);
+    border-radius: math.div($base-border-radius, 3);
+}
+
+// @debug math.$e;                                     // 2.7182818285
+// @debug math.$pi;                                    // 3.1415926536
+// @debug math.$max-number;                            // 7976931348623157 * 10^250
+// @debug math.ceil(4);                                // 4
+// @debug math.ceil(4.1);                              // 5
+// @debug math.ceil(4.9);                              // 5
+// @debug math.floor(4);                               // 4
+// @debug math.floor(4.1);                             // 4
+// @debug math.floor(4.9);                             // 4
+// @debug math.round(4);                               // 4
+// @debug math.round(4.4);                             // 4
+// @debug math.round(4.5);                             // 5
+// @debug math.round(4.9);                             // 5
+// @debug math.random();                               // [0-1]    0.8328721711
+// @debug math.random(100);                            // [0-100]  23
+// @debug math.max(100px, 20px, 110px);                // 110px
+// @debug math.min(100px, 20px, 110px);                // 20px
+// @debug math.pow(10, 2);                             // 100    
+// @debug math.pow(5, -2);                             // 0.04   
+// @debug math.pow(100, math.div(1, 3));               // 4.6415888336   
+// @debug math.sqrt(169);                              // 13   
+// @debug math.sin(30deg);                             // 0.5
+// @debug math.cos(60deg);                             // 0.5
+// @debug percentage(math.div(10, 20));                // 50%

@@ -1,0 +1,3 @@
+@use 'sass:selector';
+
+// @debug ((unquote(".main") unquote("aside:hover")), (unquote(".sidebar") unquote("p")));         // .main aside:hover, .sidebar p

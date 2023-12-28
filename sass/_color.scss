@@ -1,0 +1,15 @@
+@use 'sass:color';
+
+// @debug color.mix(red, blue);                        // purple
+// @debug color.mix(black, white);                     // gray
+// @debug color.mix(black, white, 0%);                 // white
+// @debug color.mix(black, white, 10%);                // #e6e6e6
+// @debug color.mix(black, white, 20%);                // #cccccc
+// @debug color.mix(black, white, 30%);                // #b3b3b3
+// @debug color.mix(black, white, 40%);                // #999999
+// @debug color.mix(black, white, 50%);                // gray
+// @debug color.mix(black, white, 60%);                // #666666
+// @debug color.mix(black, white, 70%);                // #4d4d4d
+// @debug color.mix(black, white, 80%);                // #333333
+// @debug color.mix(black, white, 90%);                // #1a1a1a
+// @debug color.mix(black, white, 100%);               // black

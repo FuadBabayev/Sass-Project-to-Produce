@@ -1,0 +1,27 @@
+// theme colors
+$qirmizi: rgb(255, 0, 0);
+$narinci: #f77b00;
+$sari: yellow;
+$yasil: #00f701;
+$goy: rgb(0, 0, 255);
+$tund: indigo;
+$benovseyi: rebeccapurple;
+$dark: #000000;
+$light: #ffffff;
+
+// color palette 
+$colors: (
+  "first": $qirmizi,
+  "second": $narinci,
+  "third": $sari,
+  "forth": $yasil,
+  "fifth": $goy,
+  "sixth": $tund,
+  "seventh": $benovseyi
+);
+
+
+// Measures
+$base-width: 500px;
+$base-height: 500px;
+$base-border-radius: 100px;
