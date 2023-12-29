@@ -119,7 +119,9 @@ nav #navbar .menu ul li a {
 .home-part2 img {
   width: 100%;
   border-radius: 50%;
-  border: 5px solid black;
+  border: 15px solid black;
+  object-fit: cover;
+  object-position: center;
 }
 
 .home-part1 .prolog {
