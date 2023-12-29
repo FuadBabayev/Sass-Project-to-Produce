@@ -73,7 +73,7 @@ nav{
     z-index: 2;
     border: none;
     outline: none;
-    background-color: #8f00e6;
+    background-image: linear-gradient(to right, #f9ce34,  #ee2a7b,  #6228d7);
     color: white;
     padding: 10px;
     border-radius: 4px;
@@ -209,7 +209,7 @@ nav{
 /* About Section Start */
 #about{
     // margin: 20px auto 100px auto;
-    padding: 60px 0;
+    padding: 90px 0;
     position: relative;
 }
 .acki{
@@ -230,6 +230,7 @@ nav{
 }
 .about-header{
     padding-top: 50px;
+    margin-bottom: 30px;
     // margin: 0px auto 70px;
     display: flex;
     justify-content: center;

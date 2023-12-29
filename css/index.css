@@ -74,7 +74,7 @@ nav #navbar .menu ul li a {
   z-index: 2;
   border: none;
   outline: none;
-  background-color: #8f00e6;
+  background-image: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
   color: white;
   padding: 10px;
   border-radius: 4px;
@@ -224,7 +224,7 @@ nav #navbar .menu ul li a {
 /* Home Section End */
 /* About Section Start */
 #about {
-  padding: 60px 0;
+  padding: 90px 0;
   position: relative;
 }
 
@@ -248,6 +248,7 @@ nav #navbar .menu ul li a {
 
 .about-header {
   padding-top: 50px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
